@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Janani M — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="theme-dark">
+
+  <!-- NAV -->
+  <header class="site-header">
+    <div class="container nav-row">
+      <div class="brand">
+        <div class="logo-circle">JM</div>
+        <div class="brand-text">
+          <div class="name">Janani M</div>
+          <div class="role">2nd Year CSE • Web & UI/UX</div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certs">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="controls">
+        <button id="themeToggle" title="Toggle theme">🌗</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero section">
+    <div class="container hero-grid">
+      <div class="hero-left">
+        <h1 class="hero-title">Hi — I'm <span class="accent">Janani M</span></h1>
+        <h2 class="hero-sub">
+          <span id="typed"></span>
+        </h2>
+        <p class="hero-desc">
+          Second-year Computer Science Engineering student focused on building clean web experiences and thoughtful UI/UX.
+          Seeking internships in Web Development & UI/UX to grow practical skills.
+        </p>
+        <div class="hero-cta">
+          <a href="Janani_Resume_Template.pdf" class="btn primary" download>Download Resume</a>
+          <a href="#projects" class="btn outline">View Projects</a>
+        </div>
+        <div class="quick-links">
+          <a href="https://github.com/jananim415-code" id="githubLink" target="_blank">GitHub</a>
+          <a href="#" id="linkedinLink" target="_blank">LinkedIn (to add)</a>
+        </div>
+      </div>
+
+      <div class="hero-right card">
+        <div class="profile-card">
+          <div class="avatar">JM</div>
+          <div class="card-info">
+            <h3>Janani M</h3>
+            <p class="small">Aspiring Full Stack Developer & UI/UX Designer</p>
+            <ul class="mini-list">
+              <li><strong>College:</strong> Kingston Engineering College </li>
+              <li><strong>Year:</strong> 2nd Year (2025)</li>
+              <li><strong>Location:</strong> Katpadi, Vellore, Tamil Nadu</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about">
+    <div class="container">
+      <h2 class="section-title">About & Career Objective</h2>
+      <div class="card objective">
+        <p><strong>Objective:</strong> Motivated and disciplined second-year Computer Science student seeking an internship in <em>Web Development and UI/UX Design</em> to apply HTML/CSS skills, build user-centered interfaces, and gain hands-on experience.</p>
+        <p>I enjoy building projects, learning new tools (Git, Figma), and solving problems using code and design.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section skills">
+    <div class="container">
+      <h2 class="section-title">Technical & Soft Skills</h2>
+
+      <div class="skill-grid">
+        <div class="skill-card">
+          <h4>Programming</h4>
+          <p>C · C++ · Java · Python</p>
+        </div>
+        <div class="skill-card">
+          <h4>Web</h4>
+          <p>HTML · CSS</p>
+        </div>
+        <div class="skill-card">
+          <h4>Tools</h4>
+          <p>Git · Figma</p>
+        </div>
+        <div class="skill-card">
+          <h4>CS Fundamentals</h4>
+          <p>DS & Algorithms · OOPS · SQL · Operating Systems (Basics)</p>
+        </div>
+        <div class="skill-card">
+          <h4>Soft Skills</h4>
+          <p>Problem Solving · Time Management · Leadership · Adaptability · Communication · Teamwork</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <article class="project card">
+          <div class="project-head">
+            <h3>Personal Portfolio Website</h3>
+            <span class="proj-tags">HTML · CSS · Responsive</span>
+          </div>
+          <p class="proj-desc">A responsive portfolio to showcase skills, projects, certifications and resume. Clean layout and mobile-first design.</p>
+          <div class="proj-actions">
+            <a href="https://github.com/jananim415-code/Portfolio" class="btn small" target="_blank">View Code</a>
+            <a href="https://jananim415-code.github.io/Portfolio/" class="btn small outline" target="_blank">Live Demo</a>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project card">
+          <div class="project-head">
+            <h3>Advanced Notes App</h3>
+            <span class="proj-tags">HTML · CSS · JavaScript</span>
+          </div>
+          <p class="proj-desc">
+            A web app for creating, editing, and deleting notes with dark/light theme, autosave, edit modal, tag filters, and PDF export.
+          </p>
+          <div class="proj-actions">
+            <a href="https://github.com/jananim415-code/advanced_notes_app" class="btn small" target="_blank">View Code</a>
+            <a href="https://jananim415-code.github.io/advanced_notes_app/" class="btn small outline" target="_blank">Live Demo</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certs" class="section certs">
+    <div class="container">
+      <h2 class="section-title">Certifications</h2>
+      <ul class="cert-list card">
+        <li>Cloud Computing — NPTEL</li>
+        <li>VLSI Design Flow: RTL to GDS — NPTEL</li>
+        <li>Mathematical Foundations for Machine Learning — NPTEL</li>
+        <li>Deep Learning — NPTEL</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+
+      <div class="contact-grid">
+        <div class="contact-card card">
+          <h3>Get in touch</h3>
+          <p>Email: <a href="mailto:btechjan@gmail.com" id="mailtoLink">btechjan@gmail.com</a></p>
+          <p>LinkedIn: <a href="#" id="lnkProfile" target="_blank">LinkedIn (to add)</a></p>
+          <p>GitHub: <a href="https://github.com/jananim415-code" id="ghProfile" target="_blank">GitHub</a></p>
+        </div>
+
+        <form id="contactForm" class="contact-form card">
+          <label>
+            <span>Name</span>
+            <input type="text" id="name" placeholder="Your name" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" id="email" placeholder="you@example.com" required>
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea id="message" rows="4" placeholder="Write a short message" required></textarea>
+          </label>
+          <div class="form-actions">
+            <button type="submit" class="btn primary">Send Message</button>
+            <button type="reset" class="btn outline">Reset</button>
+          </div>
+          <p class="form-note">This form uses your email client (mailto) — no backend required. After you get hosting or backend, we can switch to a form endpoint.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© 2025 Janani M • Built with HTML, CSS & JS</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

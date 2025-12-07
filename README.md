@@ -1,2 +1,8 @@
-# Portfolio
-"Personal portfolio of Janani M, a second-year Computer Science Engineering student, showcasing skills in Web Development and UI/UX Design. This portfolio highlights projects, technical skills, certifications, and provides a professional online presence. Built using HTML, CSS, and JavaScript with a responsive and modern design."
+Welcome to my personal portfolio!
+I am a second-year CSE student passionate about Web Development and UI/UX Design. This repository contains my portfolio website, featuring:
+
+Projects: Personal Portfolio Website, Advanced Notes App, and more.
+
+Technical Skills: Programming (C, C++, Java, Python), Web (HTML, CSS), Tools (Git, Figma), CS Fundamentals (DS & Algorithms, OOPS, SQL, OS Basics).
+
+Certifications: Cloud Computing, VLSI Design Flow, Mathematical Foundations for Machine Learning, Deep Learning."
